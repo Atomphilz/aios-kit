@@ -38,6 +38,8 @@ Die Dateien sind einfaches Markdown. Du kannst alles mit einem Texteditor änder
 
 **Rückfragen von Claude Code.** Die Datei `.claude/settings.json` erlaubt dem Assistenten, Dateien in diesem Ordner zu lesen und zu schreiben, ohne jedes Mal zu fragen. Alles andere, zum Beispiel Befehle im Terminal, fragt er weiter nach. Willst du jede Änderung einzeln freigeben, lösch die Zeile `"defaultMode": "acceptEdits"`.
 
+**Nachvollziehen und anhalten.** Im Verlauf links steht jeder Schritt als Zeile; aufgeklappt zeigt sie, welche Datei gelesen oder geändert wurde, und VS Code holt jede Datei per Rechtsklick → „Timeline“ auf einen früheren Stand zurück. Anhalten: Stopp-Knopf im Eingabefeld oder Esc. Fertige Dateien bleiben, der angefangene Schritt bricht ab. Eine Nebenfrage stellst du mit `/btw` und deiner Frage; sie öffnet ein eigenes kleines Fenster, der Hauptfaden bleibt unberührt.
+
 ## Lizenz und Herkunft
 
 Dieses Kit basiert auf dem [AIS-OS-Starter-Kit von Nate Herk](https://github.com/nateherkai/AIS-OS), MIT-Lizenz. Die Datei `LICENSE` ist unverändert übernommen; die Skills `/onboard`, `/grill-me`, `/link`, `/audit` und `/level-up` sowie `references/3ms-framework.md` stammen von dort. „The Three Ms of AI™“ und „The Four Cs of an AI OS™“ sind Marken von Nate Herk.
