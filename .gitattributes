@@ -1,0 +1,5 @@
+# Zeilenenden immer LF, auch auf Windows; sonst brechen die Shell-Zeilen in den Skills.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
