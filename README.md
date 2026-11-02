@@ -9,6 +9,7 @@ Das Kit ist für Solo-Selbstständige und kleine Betriebe gebaut. Es braucht kei
 | Skill | Wann |
 |---|---|
 | `/onboard` | Tag 1, direkt nach dem Herunterladen. Sieben Fragen. |
+| `/einstufung` | Tag 1, direkt nach `/onboard`. Vier Fragen, zwei Minuten: wie viel das AIOS erklärt. |
 | `/day-setup` | Einmal, nach `/onboard`. Richtet das Tagesritual ein. |
 | `/day-close` | Jeden Abend, etwa fünf Minuten. Schließt den Tag, plant morgen. |
 | `/day-open` | Jeden Morgen, eine Minute. Liest den Plan vor. |
@@ -23,8 +24,9 @@ Das Kit ist für Solo-Selbstständige und kleine Betriebe gebaut. Es braucht kei
 2. Dieses Kit herunterladen (grüner Knopf „Code“ → „Download ZIP“) und in einen Ordner entpacken, zum Beispiel `Dokumente/aiOS`. Oder klonen, falls Git da ist.
 3. Ein Terminal in diesem Ordner öffnen und `claude` starten.
 4. `/onboard` eingeben. Sieben Fragen, dann steht die Grundlage.
-5. `/day-setup` eingeben. Höchstens sieben Fragen, dann steht das Tagesritual.
-6. Heute Abend `/day-close`, morgen früh `/day-open`.
+5. `/einstufung` eingeben. Vier Fragen, dann weiß das AIOS, wie viel es erklärt.
+6. `/day-setup` eingeben. Höchstens sieben Fragen, dann steht das Tagesritual.
+7. Heute Abend `/day-close`, morgen früh `/day-open`.
 
 ## Wie es gedacht ist
 
@@ -38,4 +40,4 @@ Die Dateien sind einfaches Markdown. Du kannst alles mit einem Texteditor änder
 
 Dieses Kit basiert auf dem [AIS-OS-Starter-Kit von Nate Herk](https://github.com/nateherkai/AIS-OS), MIT-Lizenz. Die Datei `LICENSE` ist unverändert übernommen; die Skills `/onboard`, `/grill-me`, `/link`, `/audit` und `/level-up` sowie `references/3ms-framework.md` stammen von dort. „The Three Ms of AI™“ und „The Four Cs of an AI OS™“ sind Marken von Nate Herk.
 
-Die Skills `/day-setup`, `/day-close` und `/day-open` sowie die deutsche Fassung der Anleitungen sind eigene Ergänzungen und stehen unter derselben MIT-Lizenz.
+Die Skills `/einstufung`, `/day-setup`, `/day-close` und `/day-open` sowie die deutsche Fassung der Anleitungen sind eigene Ergänzungen und stehen unter derselben MIT-Lizenz.
